@@ -1,0 +1,68 @@
+.method public encryptString(Ljava/lang/String;)Ljava/lang/String;
+    .registers 6
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Lcom/handyapps/videolocker/ResultErrorException;
+        }
+    .end annotation
+
+    if-eqz p1, :cond_8
+
+    invoke-virtual {p1}, Ljava/lang/String;->length()I
+
+    move-result v0
+
+    if-nez v0, :cond_e
+
+    :cond_8
+    new-instance v0, Lcom/handyapps/videolocker/ResultErrorException;
+
+    invoke-direct {v0}, Lcom/handyapps/videolocker/ResultErrorException;-><init>()V
+
+    throw v0
+
+    :cond_e
+    :try_start_e
+    iget-object v0, p0, Lencryption/Encryption;->cipher:Ljavax/crypto/Cipher;
+
+    const/4 v1, 0x1
+
+    iget-object v2, p0, Lencryption/Encryption;->key:Ljavax/crypto/SecretKey;
+
+    iget-object v3, p0, Lencryption/Encryption;->ivspec:Ljavax/crypto/spec/IvParameterSpec;
+
+    invoke-virtual {v0, v1, v2, v3}, Ljavax/crypto/Cipher;->init(ILjava/security/Key;Ljava/security/spec/AlgorithmParameterSpec;)V
+
+    iget-object v0, p0, Lencryption/Encryption;->cipher:Ljavax/crypto/Cipher;
+
+    const-string v1, "UTF-8"
+
+    invoke-virtual {p1, v1}, Ljava/lang/String;->getBytes(Ljava/lang/String;)[B
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1}, Ljavax/crypto/Cipher;->doFinal([B)[B
+
+    move-result-object v0
+
+    const/4 v1, 0x0
+
+    invoke-static {v0, v1}, Landroid/util/Base64;->encodeToString([BI)Ljava/lang/String;
+    :try_end_28
+    .catch Ljava/lang/Exception; {:try_start_e .. :try_end_28} :catch_2a
+
+    move-result-object v0
+
+    return-object v0
+
+    :catch_2a
+    move-exception v0
+
+    invoke-virtual {v0}, Ljava/lang/Exception;->printStackTrace()V
+
+    new-instance v0, Lcom/handyapps/videolocker/ResultErrorException;
+
+    invoke-direct {v0}, Lcom/handyapps/videolocker/ResultErrorException;-><init>()V
+
+    throw v0
+.end method
