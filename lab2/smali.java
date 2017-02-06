@@ -2,24 +2,23 @@ import javax.crypto.Cipher;
 import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
 
-public String encryptString(String input) throw ResultErrorException{
+public String encryptString( String someString ) throw ResultErrorException{
+    if( someString.length() == 0 ){
+        throw ResultErrorException;
+    } else {
+        try {
+          Cipher ci = Cipher.getInstance("DES");
+          SecretKey key = KeyGenerator.getInstance("DES").generateKey();
+          IvParameterSpec iv = new IvParameterSpec(initVector.getBytes("UTF-8"));
+          ci.init(Cipher.ENCRYPT_MODE, key, iv);
+          byte[] encrypted = c.doFinal(input.getBytes());
+          encrypted = Base64.encodeBase64String(encrypted);
 
-	if(input.length() == 0){
-		throw this.ResultErrorException;
-	}
-	else{
-		try{
-			Cipher c= Cipher.getInstance("some cipher");
-			SecretKey key = keygen.generateKey();
-			IvParameterSpec iv = new IvParameterSpec(initVector.getBytes("UTF-8"));
-			cipher.init(Cipher.ENCRYPT_MODE, key, iv);
-			byte[] encrypted = cipher.doFinal(input.getBytes());
-			encrypted = Base64.encodeBase64String(encrypted)
-		}
-		catch(Exception ex){
-			ex.printStackTrace();
-			throw this.ResultErrorException;
-		}
-	}
-
+          return encrypted;
+        }
+        catch(Exception ex){
+            ex.printStackTrace();
+            throw ResultErrorException;
+        }
+    }
 }
