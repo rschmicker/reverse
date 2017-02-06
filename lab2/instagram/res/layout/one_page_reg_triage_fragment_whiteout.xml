@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/reg_header_whiteout" />
+    <com.instagram.ui.widget.searchedittext.SearchEditText android:id="@id/full_name" android:layout_width="fill_parent" android:layout_height="@dimen/reg_text_field_height" android:hint="@string/full_name" android:inputType="textNoSuggestions" android:privateImeOptions="nm" android:imeOptions="actionNext" style="@style/RegInputFieldStyle" />
+    <com.instagram.ui.widget.searchedittext.SearchEditText android:id="@id/password" android:layout_width="fill_parent" android:layout_height="@dimen/reg_text_field_height" android:hint="@string/password" android:inputType="textPassword" android:imeOptions="actionNext" style="@style/RegInputFieldStyle" />
+    <include layout="@layout/reg_next_whiteout" />
+</merge>

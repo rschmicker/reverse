@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="adding_x_like">
+        <item quantity="other">Добавление %1$s отметок «Нравится».</item>
+        <item quantity="one">Добавление %1$s отметки «Нравится».</item>
+    </plurals>
+    <plurals name="pending_promoted_posts">
+        <item quantity="other">У вас %1$d продвижений на рассмотрении.</item>
+        <item quantity="one">У вас %1$d продвижение на рассмотрении.</item>
+        <item quantity="few">У вас %1$d продвижения на рассмотрении.</item>
+    </plurals>
+    <plurals name="select_top_x_checkboxes">
+        <item quantity="other">Выбрать первые %1$s</item>
+    </plurals>
+    <plurals name="follow_all_top_x">
+        <item quantity="other">Подписаться на %1$s популярных аккаунтов</item>
+        <item quantity="one">Подписаться на %1$s популярный аккаунт</item>
+        <item quantity="few">Подписаться на %1$s популярных аккаунта</item>
+    </plurals>
+    <plurals name="x_fb_friends_on_instagram">
+        <item quantity="other">В Instagram есть ваши друзья с Facebook (%1$s)</item>
+    </plurals>
+    <plurals name="x_vk_friends_on_instagram">
+        <item quantity="other">%1$s из ваших друзей ВКонтакте есть в Instagram</item>
+    </plurals>
+    <plurals name="x_contacts_on_instagram">
+        <item quantity="other">Ваши контакты в Instagram: %1$s</item>
+    </plurals>
+    <plurals name="follow_subtitle_top_x">
+        <item quantity="other">Первые %1$s уже выбраны для вас</item>
+        <item quantity="one">Первый %1$s уже выбран для вас</item>
+    </plurals>
+    <plurals name="x_and_n_others">
+        <item quantity="other">%1$s и &amp;lt;b>еще %2$s&amp;lt;/b></item>
+    </plurals>
+    <plurals name="x_y_and_n_others">
+        <item quantity="other">%1$s, %2$s и &amp;lt;b>еще %3$s&amp;lt;/b></item>
+    </plurals>
+    <plurals name="number_of_viewers">
+        <item quantity="other">%1$d зрителей</item>
+        <item quantity="one">%1$d зритель</item>
+        <item quantity="few">%1$d зрителя</item>
+    </plurals>
+    <plurals name="discard_x_drafts">
+        <item quantity="other">Сбросить %1$d черновиков?</item>
+        <item quantity="one">Сбросить %1$d черновик?</item>
+        <item quantity="few">Сбросить %1$d черновика?</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%1$s секунд назад</item>
+        <item quantity="one">%1$s секунду назад</item>
+        <item quantity="few">%1$s секунды назад</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%1$s минут назад</item>
+        <item quantity="one">%1$s минуту назад</item>
+        <item quantity="few">%1$s минуты назад</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%1$s часов назад</item>
+        <item quantity="one">%1$s час назад</item>
+        <item quantity="few">%1$s часа назад</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%1$s дней назад</item>
+        <item quantity="one">%1$s день назад</item>
+        <item quantity="few">%1$s дня назад</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%1$s недель назад</item>
+        <item quantity="one">%1$s неделю назад</item>
+        <item quantity="few">%1$s недели назад</item>
+    </plurals>
+    <plurals name="direct_permissions_decline_x_messages">
+        <item quantity="other">Эти %1$d сообщений будут удалены, и отправители не смогут больше вам написать.</item>
+        <item quantity="one">Это %1$d сообщение будет удалено, и отправители не смогут больше вам написать.</item>
+        <item quantity="few">Эти %1$d сообщения будут удалены, и отправители не смогут больше вам написать.</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_decline">
+        <item quantity="other">Отклонить (%1$d)</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_allow">
+        <item quantity="other">Разрешить (%1$d)</item>
+    </plurals>
+    <plurals name="direct_x_people">
+        <item quantity="other">%1$s человек</item>
+        <item quantity="few">%1$s человека</item>
+    </plurals>
+    <plurals name="direct_add_member_dialog_message">
+        <item quantity="other">Они увидят все предыдущие сообщения из этой переписки.</item>
+    </plurals>
+    <plurals name="direct_x_message_requests_caps">
+        <item quantity="other">%1$s запросов</item>
+        <item quantity="one">%1$s запрос</item>
+        <item quantity="few">%1$s запроса</item>
+    </plurals>
+    <plurals name="direct_story_action_log_seen_by">
+        <item quantity="other">Видели: %1$d</item>
+    </plurals>
+    <plurals name="selection_max_reached">
+        <item quantity="other">Вы можете выбрать только %1$d комментариев за раз.</item>
+        <item quantity="one">Вы можете выбрать только %1$d комментарий за раз.</item>
+        <item quantity="few">Вы можете выбрать только %1$d комментария за раз.</item>
+    </plurals>
+    <plurals name="comment_like_count">
+        <item quantity="other">%1$d отметок «Нравится»</item>
+        <item quantity="one">%1$d отметка «Нравится»</item>
+        <item quantity="few">%1$d отметки «Нравится»</item>
+    </plurals>
+    <plurals name="unseen_posts">
+        <item quantity="other">%1$d новых публикаций</item>
+        <item quantity="one">%1$d новая публикация</item>
+        <item quantity="few">%1$d новые публикации</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">Друзья Facebook: %1$s</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">Контакты: %1$s</item>
+    </plurals>
+    <plurals name="found_x_fb_friends">
+        <item quantity="other">В Instagram у вас есть %1$s друзей с Facebook.</item>
+        <item quantity="one">В Instagram у вас есть %1$s друг с Facebook.</item>
+        <item quantity="few">В Instagram у вас есть %1$s друга с Facebook.</item>
+    </plurals>
+    <plurals name="found_x_vk_friends">
+        <item quantity="other">В Instagram есть ваши друзья из ВКонтакте (%1$s).</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">Найдено контактов: %1$s</item>
+    </plurals>
+    <plurals name="x_selected">
+        <item quantity="other">Выбрано: %1$d</item>
+    </plurals>
+    <plurals name="new_posts">
+        <item quantity="other">%1$d новых публикаций</item>
+        <item quantity="one">%1$d новая публикация</item>
+        <item quantity="few">%1$d новые публикации</item>
+    </plurals>
+    <plurals name="undo_x_deleted">
+        <item quantity="other">%1$d комментариев удалено. Коснитесь, чтобы отменить.</item>
+        <item quantity="one">%1$d комментарий удален. Коснитесь, чтобы отменить.</item>
+        <item quantity="few">%1$d комментария удалено. Коснитесь, чтобы отменить.</item>
+    </plurals>
+    <plurals name="x_people">
+        <item quantity="other">%1$d человек</item>
+        <item quantity="few">%1$d человека</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">%1$d человек ответили.</item>
+        <item quantity="one">%1$d человек ответил.</item>
+        <item quantity="few">%1$d человека ответили.</item>
+    </plurals>
+    <plurals name="live_broadcast_total_views">
+        <item quantity="other">%1$s зрителей</item>
+        <item quantity="one">%1$s зритель</item>
+        <item quantity="few">%1$s зрителя</item>
+    </plurals>
+</resources>

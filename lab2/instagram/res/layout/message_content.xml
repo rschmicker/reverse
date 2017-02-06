@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/row_root_container" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/timestamp_stub" android:layout="@layout/thread_message_timestamp_separator" android:inflatedId="@id/timestamp_separator" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/username_stub" android:layout="@layout/thread_message_username" android:inflatedId="@id/username" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/direct_message_avatar_spacing" android:layout_marginBottom="@dimen/direct_row_message_username_padding_bottom" />
+    <FrameLayout android:id="@id/message_content" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewStub android:layout_gravity="bottom|center|left" android:id="@id/sender_avatar_stub" android:layout="@layout/message_avatar" android:layout_width="@dimen/direct_avatar_small" android:layout_height="@dimen/direct_avatar_small" android:layout_marginLeft="@dimen/direct_row_message_common_padding" />
+        <ViewStub android:layout_gravity="center|right" android:id="@id/upload_failed_icon_stub" android:layout="@layout/upload_failed_icon" android:inflatedId="@id/upload_failed_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/direct_row_message_common_padding" />
+        <View android:layout_gravity="center|right" android:id="@id/sending_indicator" android:background="@drawable/sending_indicator" android:visibility="gone" android:layout_width="@dimen/direct_row_message_send_indicator_size" android:layout_height="@dimen/direct_row_message_send_indicator_size" android:translationX="3.0dip" />
+        <TextView android:textSize="@dimen/font_small" android:textColor="@color/grey_light" android:ellipsize="end" android:gravity="center|left" android:layout_gravity="center|right" android:id="@id/message_status" android:paddingLeft="@dimen/direct_row_message_common_padding" android:layout_width="@dimen/direct_row_message_timestamp_width" android:layout_height="@dimen/avatar_size_small" android:maxLines="1" android:translationX="76.0dip" />
+    </FrameLayout>
+</LinearLayout>

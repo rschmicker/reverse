@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/reg_colourful_header_large" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/reg_page_side_margin" android:layout_marginTop="@dimen/reg_page_info_margin" android:layout_marginRight="@dimen/reg_page_side_margin">
+        <TextSwitcher android:layout_gravity="center_horizontal" android:id="@id/facebook_text_switcher" android:background="@drawable/reg_blue_button_background" android:layout_width="fill_parent" android:layout_height="@dimen/reg_button_height" android:inAnimation="@anim/fade_in" android:outAnimation="@anim/fade_out" style="@style/RegButtonGeneralStyle" />
+        <TextView android:textSize="@dimen/font_medium" android:textColor="@color/grey_5_whiteout" android:ellipsize="end" android:gravity="center" android:id="@id/social_context" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:layout_marginTop="@dimen/social_context_margin" android:layout_marginBottom="@dimen/reg_or_divider_padding" android:maxLines="2" />
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/reg_or_divider_padding" layout="@layout/or_divider_grey" />
+        <TextView android:textSize="@dimen/font_medium" android:textStyle="bold" android:textColor="@color/blue_5_whiteout" android:gravity="center" android:id="@id/sign_up_with_email_or_phone" android:paddingTop="@dimen/reg_or_divider_padding" android:paddingBottom="@dimen/reg_or_divider_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/sign_up_with_email_or_phone" />
+    </LinearLayout>
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <include layout="@layout/privacy_policy" />
+    <include layout="@layout/reg_footer_whiteout" />
+</merge>

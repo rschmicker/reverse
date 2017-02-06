@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/direct_quick_camera_reply_header" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/reply_with_text_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/overlay_text" app:normal="@color/white" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/reply_to_text_container" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <TextView android:textColor="@color/white" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/direct_reply_to" android:maxLines="1" style="@style/ShadowTextViewStyle" />
+        <TextView android:textStyle="bold" android:textColor="@color/white" android:ellipsize="end" android:gravity="center" android:id="@id/context_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginRight="6.0dip" android:text="@string/direct_reply_to" android:maxLines="1" android:textAlignment="center" android:layout_marginStart="4.0dip" android:layout_marginEnd="6.0dip" style="@style/ShadowTextViewStyle" />
+    </LinearLayout>
+    <android.support.v4.widget.Space android:layout_width="48.0dip" android:layout_height="48.0dip" />
+</LinearLayout>

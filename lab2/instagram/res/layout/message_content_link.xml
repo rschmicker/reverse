@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="start" android:layout_gravity="start" android:orientation="vertical" android:id="@id/message_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/direct_message_avatar_spacing"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/direct_row_message_comment_text_size" android:textColor="@color/grey_medium" android:id="@id/message_text" android:background="@drawable/bubble_background_white" android:paddingLeft="@dimen/direct_row_message_comment_padding_sides" android:paddingTop="@dimen/direct_row_message_common_padding" android:paddingRight="@dimen/direct_row_message_comment_padding_sides" android:paddingBottom="@dimen/direct_row_message_comment_padding_bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" />
+    <FrameLayout android:id="@id/link_preview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="@drawable/message_mask">
+        <com.instagram.feed.widget.IgProgressImageView android:id="@id/link_preview_image" android:layout_width="fill_parent" android:layout_height="@dimen/direct_link_preview_height" android:foreground="@drawable/bubble_border_square" />
+        <LinearLayout android:orientation="vertical" android:id="@id/link_preview_text_container" android:paddingLeft="@dimen/direct_row_message_comment_padding_sides" android:paddingTop="@dimen/direct_row_message_common_padding" android:paddingRight="@dimen/direct_row_message_comment_padding_sides" android:paddingBottom="@dimen/direct_row_message_comment_padding_bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/direct_row_message_comment_text_size" android:textColor="@color/grey_medium" android:ellipsize="end" android:id="@id/link_preview_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" />
+            <TextView android:textSize="@dimen/direct_row_message_comment_info_text_size" android:textColor="@color/grey_light" android:ellipsize="end" android:id="@id/link_preview_summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

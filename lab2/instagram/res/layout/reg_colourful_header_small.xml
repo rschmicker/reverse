@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/header_container" android:paddingBottom="@dimen/logo_margin_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/reg_page_side_margin" android:layout_marginRight="@dimen/reg_page_side_margin">
+        <include layout="@layout/language_picker" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/logo_margin_small" android:src="@drawable/nux_dayone_landing_logo" android:scaleType="centerInside" android:adjustViewBounds="true" />
+    </LinearLayout>
+    <com.instagram.android.nux.LandingRotatingBackgroundView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignBottom="@id/header_container" android:layout_alignParentTop="true" />
+</RelativeLayout>

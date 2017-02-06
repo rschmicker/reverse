@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/layout_listview_parent_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.ui.listview.StickyHeaderListView android:id="@id/sticky_header_list" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/layout_refreshablelistview" />
+    </com.instagram.ui.listview.StickyHeaderListView>
+    <include layout="@layout/blocked_profile" />
+    <ViewStub android:id="@id/save_popout_image_stub" android:layout="@layout/save_popout_image" android:layout_width="@dimen/save_popout_size" android:layout_height="@dimen/save_popout_size" />
+    <include layout="@layout/layout_listview_progressbar" />
+</FrameLayout>

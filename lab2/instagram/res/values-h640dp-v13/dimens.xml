@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="logo_margin_large">72.0dip</dimen>
+    <dimen name="reg_or_divider_padding">24.0dip</dimen>
+    <dimen name="reg_header_top_margin">96.0dip</dimen>
+</resources>

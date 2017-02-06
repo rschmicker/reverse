@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/reg_page_side_margin" android:layout_marginTop="@dimen/reg_button_top_margin" android:layout_marginRight="@dimen/reg_page_side_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ProgressBar android:layout_gravity="center" android:id="@id/next_progress" android:layout_width="32.0dip" android:layout_height="32.0dip" android:indeterminate="true" />
+    <com.instagram.ui.text.TitleTextView android:textColor="@color/white" android:id="@id/next_button" android:background="@drawable/reg_blue_button_background" android:layout_width="fill_parent" android:layout_height="@dimen/reg_button_height" app:capitalize="false" style="@style/RegButtonGeneralStyle" />
+</FrameLayout>

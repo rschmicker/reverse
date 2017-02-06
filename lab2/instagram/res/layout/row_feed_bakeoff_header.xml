@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/row_feed_profile_header" android:background="?backgroundColorSecondary" android:layout_width="fill_parent" android:layout_height="@dimen/feed_row_header_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.common.ui.widget.imageview.CircularImageView android:id="@id/row_feed_photo_profile_imageview" android:layout_marginLeft="@dimen/feed_header_padding" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/profile_picture" style="@style/Avatar.XSmall" />
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/feed_profile_name_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/row_feed_photo_profile_imageview" android:layout_centerVertical="true">
+        <TextView android:ellipsize="end" android:id="@id/row_feed_photo_profile_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+        <TextView android:ellipsize="none" android:id="@id/row_feed_photo_profile_metalabel" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+    </LinearLayout>
+</RelativeLayout>

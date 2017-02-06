@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="fill_parent" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center" android:layout_gravity="center|left|top" android:id="@id/camera_retake_button" android:paddingLeft="@dimen/quick_capture_top_button_padding" android:paddingRight="@dimen/quick_capture_top_button_padding" android:paddingBottom="@dimen/quick_capture_top_button_padding" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="@dimen/quick_capture_top_button_height" android:text="@string/cancel" style="@style/Widget.TextView.Capture.Shadow" />
+    <ViewStub android:layout_gravity="center" android:id="@id/hands_free_countdown_stub" android:layout="@layout/hands_free_counter" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <LinearLayout android:layout_gravity="center|right|top" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+        <ImageView android:id="@id/video_mute_button" android:layout_width="@dimen/button_width" android:layout_height="@dimen/button_width" android:layout_marginRight="4.0dip" android:src="@drawable/overlay_sound_off" android:scaleType="center" android:contentDescription="@string/mute_video" />
+        <ImageView android:id="@id/weblink_setting_button" android:visibility="gone" android:layout_width="@dimen/button_width" android:layout_height="@dimen/button_width" android:layout_marginRight="4.0dip" android:src="@drawable/weblink" android:scaleType="center" android:contentDescription="@string/link" />
+        <ImageView android:id="@id/asset_button" android:visibility="gone" android:layout_width="@dimen/button_width" android:layout_height="@dimen/button_width" android:layout_marginRight="4.0dip" android:src="@drawable/overlay_sticker" android:scaleType="center" android:contentDescription="@string/asset" />
+        <ImageView android:id="@id/draw_button" android:visibility="invisible" android:layout_width="@dimen/button_width" android:layout_height="@dimen/button_width" android:layout_marginRight="4.0dip" android:src="@drawable/overlay_drawing_tools" android:scaleType="center" android:contentDescription="@string/draw" />
+        <ImageView android:id="@id/add_text_button" android:visibility="invisible" android:layout_width="@dimen/button_width" android:layout_height="@dimen/button_width" android:layout_marginRight="4.0dip" android:src="@drawable/overlay_text" android:scaleType="center" android:contentDescription="@string/add_text" />
+    </LinearLayout>
+    <TextView android:textStyle="bold" android:gravity="center" android:layout_gravity="center|right|top" android:id="@id/done_button" android:paddingLeft="@dimen/quick_capture_top_button_padding" android:paddingRight="@dimen/quick_capture_top_button_padding" android:paddingBottom="@dimen/quick_capture_top_button_padding" android:layout_width="wrap_content" android:layout_height="@dimen/quick_capture_top_button_height" android:text="@string/done" style="@style/Widget.TextView.Capture.Shadow" />
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="vertical" android:id="@id/camera_buttons_container" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <FrameLayout android:gravity="center" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ViewStub android:layout_gravity="bottom|center" android:id="@id/text_reply_swipe_affordance_stub" android:layout="@layout/text_reply_swipe_affordance" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ViewStub android:layout_gravity="center" android:id="@id/add_to_reel_tooltip_stub" android:layout="@layout/reel_camera_tooltip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+        <FrameLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="center" android:id="@id/camera_flash_button" android:layout_width="@dimen/button_width" android:layout_height="@dimen/button_width" android:src="@drawable/flash_states" android:scaleType="center" app:disabled_alpha="0x00000080" />
+                </FrameLayout>
+                <FrameLayout android:clipChildren="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.instagram.ui.widget.camerabutton.CameraButton android:layout_gravity="center_horizontal" android:id="@id/camera_shutter_button" android:layout_width="@dimen/quick_capture_shutter_button_size" android:layout_height="@dimen/quick_capture_shutter_button_size" app:innerCircleInset="12.5dip" app:innerCircleColour="@android:color/white" app:outerCircleColour="@color/white_30_transparent" app:progressCircleStrokeWidth="4.0dip" app:arrowColour="@color/black" app:arrowHeadEdgeLength="12.0dip" app:arrowLength="20.0dip" app:arrowThickness="2.0dip" />
+                    <ImageView android:layout_gravity="center" android:id="@id/prior_shutter_icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:alpha="0.0" />
+                    <ImageView android:layout_gravity="center" android:id="@id/next_shutter_icon" android:layout_width="48.0dip" android:layout_height="48.0dip" android:alpha="0.0" />
+                </FrameLayout>
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:layout_gravity="center" android:id="@id/camera_switch_button" android:layout_width="@dimen/button_width" android:layout_height="@dimen/button_width" android:src="@drawable/flip_states" android:scaleType="center" app:disabled_alpha="0x00000080" />
+                </FrameLayout>
+            </LinearLayout>
+            <View android:layout_gravity="center_vertical" android:id="@id/start_iglive_button" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/quick_capture_shutter_button_inner_size" />
+        </FrameLayout>
+    </LinearLayout>
+    <ViewStub android:layout_gravity="bottom" android:id="@id/capture_format_picker_stub" android:layout="@layout/capture_format_picker" android:layout_width="fill_parent" android:layout_height="40.0dip" />
+    <LinearLayout android:layout_gravity="bottom|center|left" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="12.0dip" android:layout_marginBottom="12.0dip">
+        <Button android:textColor="@color/white" android:id="@id/camera_save_button" android:background="@null" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12.0dip" android:text="@string/save_button_text" android:drawableTop="@drawable/overlay_save" style="@style/Widget.TextView.Capture.Shadow.Small" />
+        <Button android:textColor="@color/white" android:id="@id/my_story_button" android:background="@null" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/your_story_button_text" android:drawableTop="@drawable/your_story_icon" android:drawablePadding="12.0dip" style="@style/Widget.TextView.Capture.Shadow.Small" />
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/capture_controls_send_button_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip">
+        <ViewStub android:id="@id/direct_reply_avatar_button_stub" android:layout="@layout/direct_reply_avatar_button" android:layout_width="@dimen/quick_capture_shutter_button_inner_size" android:layout_height="@dimen/quick_capture_shutter_button_inner_size" android:layout_marginBottom="4.0dip" />
+        <TextView android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/camera_send_button_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/direct_send" style="@style/Widget.TextView.Capture.Shadow.Small" />
+    </LinearLayout>
+</FrameLayout>

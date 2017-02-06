@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/shopping_viewer_side_margin" android:paddingRight="@dimen/shopping_viewer_side_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="@dimen/shopping_viewer_top_bottom_margin" android:layout_marginBottom="@dimen/shopping_viewer_top_bottom_margin" layout="@layout/row_divider" />
+    <TextView android:textSize="@dimen/font_medium" android:textStyle="normal" android:textColor="@color/grey_9_whiteout" android:layout_gravity="center_horizontal" android:id="@id/description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/shopping_viewer_top_bottom_margin" android:lineSpacingExtra="3.0sp" />
+</LinearLayout>

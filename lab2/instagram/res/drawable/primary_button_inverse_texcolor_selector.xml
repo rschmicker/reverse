@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:color="@color/blue_5_whiteout" app:state_follow="true" />
+    <item android:color="@color/grey_9_whiteout" app:state_following="true" />
+</selector>

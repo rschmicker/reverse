@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="adding_x_like">
+        <item quantity="other">Προστίθενται %1$s \"Μου αρέσει!\"...</item>
+        <item quantity="one">Προστίθεται 1 \"Μου αρέσει!\"...</item>
+    </plurals>
+    <plurals name="pending_promoted_posts">
+        <item quantity="other">Εκκρεμούν %1$d προωθήσεις.</item>
+        <item quantity="one">Εκκρεμεί 1 προώθηση.</item>
+    </plurals>
+    <plurals name="select_top_x_checkboxes">
+        <item quantity="other">Επιλέξτε τους κορυφαίους %1$s</item>
+        <item quantity="one">Επιλέξτε τον πρώτο</item>
+    </plurals>
+    <plurals name="follow_all_top_x">
+        <item quantity="other">Ακολουθήστε τους πρώτους %1$s λογαριασμούς</item>
+        <item quantity="one">Ακολουθήστε τον πρώτο λογαριασμό</item>
+    </plurals>
+    <plurals name="x_fb_friends_on_instagram">
+        <item quantity="other">%1$s από τους φίλους σας στο Facebook είναι στο Instagram</item>
+        <item quantity="one">1 από τους φίλους σας στο Facebook είναι στο Instagram</item>
+    </plurals>
+    <plurals name="x_vk_friends_on_instagram">
+        <item quantity="other">%1$s από τους φίλους σας στο VKontakte βρίσκονται στο Instagram</item>
+        <item quantity="one">1 από τους φίλους σας στο VKontakte στο Instagram</item>
+    </plurals>
+    <plurals name="x_contacts_on_instagram">
+        <item quantity="other">%1$s από τις επαφές σας είναι στο Instagram</item>
+        <item quantity="one">1 από τις επαφές σας είναι στο Instagram</item>
+    </plurals>
+    <plurals name="follow_subtitle_top_x">
+        <item quantity="other">Έχουν ήδη επιλεγεί για σας οι πρώτοι %1$s που μπορείτε να ακολουθήσετε</item>
+        <item quantity="one">Έχετε ήδη επιλεγεί για σας ο πρώτος που μπορείτε να ακολουθήσετε</item>
+    </plurals>
+    <plurals name="x_and_n_others">
+        <item quantity="other">%1$s και &amp;lt;b>%2$s ακόμη&amp;lt;/b></item>
+        <item quantity="one">%1$s και &amp;lt;b>1 ακόμη&amp;lt;/b></item>
+    </plurals>
+    <plurals name="x_y_and_n_others">
+        <item quantity="other">%1$s, %2$s και &amp;lt;b>%3$s ακόμη&amp;lt;/b></item>
+        <item quantity="one">%1$s, %2$s και &amp;lt;b>1 ακόμη&amp;lt;/b></item>
+    </plurals>
+    <plurals name="number_of_viewers">
+        <item quantity="other">%1$d θεατές</item>
+        <item quantity="one">1 θεατής</item>
+    </plurals>
+    <plurals name="discard_x_drafts">
+        <item quantity="other">Απόρριψη %1$d προσχεδίων;</item>
+        <item quantity="one">Απόρριψη 1 προσχεδίου;</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%1$s δευτερόλεπτα πριν</item>
+        <item quantity="one">%1$s δευτερόλεπτο πριν</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%1$s λεπτά πριν</item>
+        <item quantity="one">%1$s λεπτό πριν</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%1$s ώρες πριν</item>
+        <item quantity="one">%1$s ώρα πριν</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%1$s ημέρες πριν</item>
+        <item quantity="one">%1$s ημέρα πριν</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%1$s εβδομάδες πριν</item>
+        <item quantity="one">%1$s εβδομάδα πριν</item>
+    </plurals>
+    <plurals name="direct_permissions_decline_x_messages">
+        <item quantity="other">Αυτά τα %1$d μηνύματα θα αφαιρεθούν και οι αποστολείς δεν θα μπορούν να σας στείλουν ξανά μήνυμα.</item>
+        <item quantity="one">Το μήνυμα αυτό θα αφαιρεθεί και ο αποστολέας δεν θα μπορεί να σας στείλει ξανά μήνυμα.</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_decline">
+        <item quantity="other">Απόρριψη (%1$d)</item>
+        <item quantity="one">Απόρριψη</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_allow">
+        <item quantity="other">Αποδοχή (%1$d)</item>
+        <item quantity="one">Αποδοχή</item>
+    </plurals>
+    <plurals name="direct_x_people">
+        <item quantity="other">%1$s άτομα</item>
+        <item quantity="one">1 άτομο</item>
+    </plurals>
+    <plurals name="direct_add_member_dialog_message">
+        <item quantity="other">Θα δουν όλα τα προηγούμενα μηνύματα της συζήτησης.</item>
+        <item quantity="one">Ο χρήστης %1$s θα δει όλα τα προηγούμενα μηνύματα από αυτή τη συζήτηση.</item>
+    </plurals>
+    <plurals name="direct_x_message_requests_caps">
+        <item quantity="other">%1$s αιτήματα</item>
+        <item quantity="one">%1$s αίτημα</item>
+    </plurals>
+    <plurals name="direct_story_action_log_seen_by">
+        <item quantity="other">Το είδαν %1$d άτομα</item>
+        <item quantity="one">Το είδε 1 άτομο</item>
+    </plurals>
+    <plurals name="selection_max_reached">
+        <item quantity="other">Μπορείτε να επιλέξετε μόνο %1$d σχόλια κάθε φορά.</item>
+        <item quantity="one">Μπορείτε να επιλέξετε μόνο 1 σχόλιο κάθε φορά.</item>
+    </plurals>
+    <plurals name="comment_like_count">
+        <item quantity="other">Αρέσει σε %1$d</item>
+        <item quantity="one">Αρέσει σε 1</item>
+    </plurals>
+    <plurals name="unseen_posts">
+        <item quantity="other">%1$d νέες δημοσιεύσεις</item>
+        <item quantity="one">1 νέα δημοσίευση</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">%1$s φίλοι από το Facebook</item>
+        <item quantity="one">1 φίλος από το Facebook</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">%1$s επαφές</item>
+        <item quantity="one">1 επαφή</item>
+    </plurals>
+    <plurals name="found_x_fb_friends">
+        <item quantity="other">%1$s φίλοι σας από το Facebook είναι στο Instagram.</item>
+        <item quantity="one">1 φίλος σας από το Facebook είναι στο Instagram.</item>
+    </plurals>
+    <plurals name="found_x_vk_friends">
+        <item quantity="other">Έχετε %1$s φίλους από το VKontakte στο Instagram.</item>
+        <item quantity="one">Έχετε 1 φίλο από το VKontakte στο Instagram.</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">Βρέθηκαν %1$s επαφές.</item>
+        <item quantity="one">Βρέθηκε 1 επαφή.</item>
+    </plurals>
+    <plurals name="x_selected">
+        <item quantity="other">Επιλέχθηκαν %1$d στοιχεία</item>
+        <item quantity="one">Επιλέχθηκε 1 στοιχείο</item>
+    </plurals>
+    <plurals name="new_posts">
+        <item quantity="other">%1$d νέες δημοσιεύσεις</item>
+        <item quantity="one">1 νέα δημοσίευση</item>
+    </plurals>
+    <plurals name="undo_x_deleted">
+        <item quantity="other">Διαγράφηκαν %1$d σχόλια. Πατήστε για αναίρεση.</item>
+        <item quantity="one">Το σχόλιο διαγράφηκε. Πατήστε για αναίρεση.</item>
+    </plurals>
+    <plurals name="x_people">
+        <item quantity="other">%1$d άτομα</item>
+        <item quantity="one">1 άτομο</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">Απάντησαν %1$d άτομα.</item>
+        <item quantity="one">Απάντησε 1 άτομο.</item>
+    </plurals>
+    <plurals name="live_broadcast_total_views">
+        <item quantity="other">%1$s θεατές</item>
+        <item quantity="one">1 θεατής</item>
+    </plurals>
+</resources>

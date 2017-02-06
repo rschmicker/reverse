@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:minHeight="@dimen/textfield_padding" android:layout_weight="1.0" />
+    <include layout="@layout/reg_title" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/reg_field_horizontal_margin" android:layout_marginTop="@dimen/row_padding" android:layout_marginRight="@dimen/reg_field_horizontal_margin" android:layout_marginBottom="@dimen/row_padding">
+        <include layout="@layout/reg_username_field" />
+        <TextView android:textSize="@dimen/font_small" android:textColor="@color/white_70_transparent" android:gravity="center" android:id="@id/search_contact_explanation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/row_padding" android:lineSpacingMultiplier="1.1" />
+        <include layout="@layout/reg_next" />
+        <TextView android:textSize="@dimen/font_small" android:textColor="@color/white" android:gravity="center" android:id="@id/continue_without_ci" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:text="@string/continue_without_ci" />
+    </LinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0">
+        <include layout="@layout/privacy_policy" />
+    </FrameLayout>
+</merge>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/insights_reel_media_view" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/layout_reel_media_view" />
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/font_medium" android:textColor="@color/white" android:gravity="center" android:id="@id/insights_reel_banner" android:background="@color/red_5_whiteout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/header_height" android:text="@string/story_inactive_banner_text" />
+    </LinearLayout>
+</FrameLayout>

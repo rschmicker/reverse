@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="oval" android:useLevel="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/grey_0_whiteout" />
+    <size android:height="@dimen/direct_story_tray_double_avatar_white_circle_size" android:width="@dimen/direct_story_tray_double_avatar_white_circle_size" />
+</shape>

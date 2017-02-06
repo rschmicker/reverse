@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/direct_message_avatar_spacing"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textSize="@dimen/direct_row_message_comment_text_size" android:textColor="@color/grey_4" android:layout_gravity="center_vertical" android:id="@id/direct_indicator_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/direct_row_message_width" android:text="@string/direct_activity_indicator" />
+    </FrameLayout>
+    <ImageView android:layout_gravity="center|left" android:id="@id/pulse_circle" android:layout_width="@dimen/direct_pulse_circle_radius" android:layout_height="@dimen/direct_pulse_circle_radius" android:layout_marginLeft="@dimen/direct_pulse_circle_side_margin" android:layout_marginTop="@dimen/direct_pulse_circle_top_margin" android:layout_marginRight="@dimen/direct_pulse_circle_side_margin" android:layout_marginBottom="@dimen/direct_pulse_circle_bottom_margin" android:src="@drawable/pulse_circle" />
+    <FrameLayout android:layout_gravity="center|left" android:id="@id/pulsing_avatar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/direct_pulsing_avatar_left_margin" android:layout_marginTop="@dimen/direct_pulsing_avatar_top_margin" android:layout_marginBottom="@dimen/direct_pulsing_avatar_bottom_margin">
+        <com.instagram.common.ui.widget.imageview.CircularImageView android:id="@id/sender_avatar" style="@style/DirectAvatar.XSmall"
+          xmlns:android="http://schemas.android.com/apk/res/android" />
+    </FrameLayout>
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.common.ui.widget.reboundviewpager.ReboundViewPager android:id="@id/view_pager" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true" />
+    <View android:id="@id/background_dimmer" android:background="@color/black_40_transparent" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include layout="@layout/layout_reel_viewer_message_composer" />
+    <com.instagram.android.widget.VolumeIndicator android:layout_gravity="top" android:id="@id/reel_volume_indicator" android:background="@color/white" android:paddingLeft="6.0dip" android:paddingTop="7.0dip" android:paddingRight="6.0dip" android:paddingBottom="7.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="16.0dip" android:progressDrawable="@drawable/reel_volume_indicator_background" style="?android:attr/progressBarStyleHorizontal" />
+</FrameLayout>

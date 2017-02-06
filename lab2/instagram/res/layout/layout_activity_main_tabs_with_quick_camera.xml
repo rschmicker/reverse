@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.ui.swipenavigation.SwipeNavigationContainer android:id="@id/swipe_navigation_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <include layout="@layout/layout_activity_main_tabs" />
+        <FrameLayout android:id="@id/direct_inbox_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+</com.instagram.ui.swipenavigation.SwipeNavigationContainer>

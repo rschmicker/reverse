@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@drawable/bg_simple_row" android:layout_width="fill_parent" android:layout_height="@dimen/row_height" style="@style/PaddedRow"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/row_user_container" android:paddingTop="@dimen/vertical_separator_padding" android:paddingBottom="@dimen/vertical_separator_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.instagram.common.ui.widget.imageview.CircularImageView android:id="@id/row_user_avatar" style="@style/Avatar.Medium" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/row_text_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textStyle="bold" android:ellipsize="end" android:id="@id/row_user_username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textColor="@color/grey_light" android:ellipsize="end" android:id="@id/row_user_fullname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+        <include android:layout_gravity="center_vertical" android:layout_width="@dimen/follow_button_in_row_width" android:layout_height="@dimen/follow_button_height" layout="@layout/follow_button_large" />
+        <TextView android:textColor="@color/red_5_whiteout" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/row_user_blocked_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/direct_blocked" android:singleLine="true" />
+    </LinearLayout>
+    <include layout="@layout/row_divider" />
+</FrameLayout>

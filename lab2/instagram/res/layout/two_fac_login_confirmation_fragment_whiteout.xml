@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/reg_header_whiteout" />
+    <LinearLayout android:orientation="vertical" android:id="@id/input_field_group" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include layout="@layout/reg_next_whiteout" />
+    <TextView android:textSize="@dimen/font_medium" android:textColor="@color/grey_5_whiteout" android:gravity="center" android:id="@id/field_resend_code" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/reg_page_side_margin" android:layout_marginTop="@dimen/forget_button_top_padding" android:layout_marginRight="@dimen/reg_page_side_margin" android:layout_marginBottom="10.0dip" />
+    <TextView android:textSize="@dimen/font_medium" android:textColor="@color/blue_5_whiteout" android:gravity="center" android:id="@id/field_have_trouble_login" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/reg_page_side_margin" android:layout_marginRight="@dimen/reg_page_side_margin" />
+    <View android:layout_width="fill_parent" android:layout_height="@dimen/twofac_confirmation_bottom_text_margin" android:layout_weight="1.0" />
+    <include layout="@layout/reg_footer_whiteout" />
+</merge>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feed_browser_more_options">Më shumë mundësi</string>
+    <string name="browser_ssl_error_positive_button_text">Kthehu mbrapa</string>
+    <string name="feed_browser_menu_item_open_with_app">Hape në program</string>
+    <string name="catalyst_maps_report_button">Raporto</string>
+    <string name="catalyst_maps_open_map_reporter">Publike</string>
+    <string name="catalyst_maps_reporter_dialog_message">Kjo hartë mirëmbahet nga pala e tretë. Ju do të ridrejtoheni te ata për të zgjedhur këtë çështje.</string>
+</resources>

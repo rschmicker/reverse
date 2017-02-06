@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="adding_x_like">
+        <item quantity="other">%1$s ਪਸੰਦਾਂ ਨੂੰ ਸ਼ਾਮਲ ਕਰ ਰਿਹਾ ਹੈ।</item>
+    </plurals>
+    <plurals name="pending_promoted_posts">
+        <item quantity="other">ਤੁਹਾਡੇ ਕੋਲ %1$d ਪ੍ਰਚਾਰ ਬਾਕੀ ਹਨ।</item>
+    </plurals>
+</resources>

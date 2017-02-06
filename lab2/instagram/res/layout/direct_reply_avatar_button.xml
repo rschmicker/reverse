@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center_horizontal" android:id="@id/shutter_button_container" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/direct_large_avatar_button_ring" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.instagram.common.ui.widget.imageview.CircularImageView android:layout_gravity="center" android:id="@id/reply_button_single_avatar" android:layout_width="@dimen/direct_reply_avatar_button_large_diameter" android:layout_height="@dimen/direct_reply_avatar_button_large_diameter" />
+</FrameLayout>

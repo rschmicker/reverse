@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:gravity="center_vertical" android:id="@id/group_name" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/row_padding" android:layout_marginRight="@dimen/row_padding" android:minHeight="@dimen/row_height" android:hint="@string/direct_story_name_group" android:maxLines="1" android:maxLength="20" android:inputType="textAutoComplete" style="@style/EditTextStyle" />
+    <include android:id="@id/user_search_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/direct_story_create_group_search_bar" />
+    <include android:id="@id/recipients_list" layout="@layout/layout_listview_with_progress" />
+</LinearLayout>

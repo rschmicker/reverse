@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/reg_header_whiteout" />
+    <com.instagram.ui.widget.searchedittext.SearchEditText android:id="@id/username" android:layout_width="fill_parent" android:layout_height="@dimen/reg_text_field_height" android:hint="@string/username" android:inputType="textNoSuggestions" android:privateImeOptions="nm" android:imeOptions="actionNext" style="@style/RegInputFieldStyle" />
+    <TextView android:textSize="@dimen/font_small" android:textColor="@color/grey_5_whiteout" android:gravity="center" android:id="@id/search_contact_explanation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/reg_page_side_margin" android:layout_marginTop="@dimen/title_bottom_padding" android:layout_marginRight="@dimen/reg_page_side_margin" android:lineSpacingMultiplier="1.1" />
+    <include layout="@layout/reg_next_whiteout" />
+    <TextView android:textSize="@dimen/font_small" android:textColor="@color/grey_9_whiteout" android:gravity="center" android:id="@id/continue_without_ci" android:paddingTop="@dimen/next_button_text_padding" android:paddingBottom="@dimen/next_button_text_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/reg_page_side_margin" android:layout_marginRight="@dimen/reg_page_side_margin" android:text="@string/continue_without_ci" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <include layout="@layout/privacy_policy" />
+    </FrameLayout>
+</merge>

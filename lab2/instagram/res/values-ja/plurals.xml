@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="adding_x_like">
+        <item quantity="other">いいね！%1$s件を追加中です。</item>
+    </plurals>
+    <plurals name="pending_promoted_posts">
+        <item quantity="other">承認待ちの広告が%1$d件あります。</item>
+    </plurals>
+    <plurals name="select_top_x_checkboxes">
+        <item quantity="other">トップ%1$sを選択</item>
+    </plurals>
+    <plurals name="follow_all_top_x">
+        <item quantity="other">トップ%1$sのアカウントをフォロー</item>
+    </plurals>
+    <plurals name="x_fb_friends_on_instagram">
+        <item quantity="other">%1$s人のFacebookの友達がInstagramを利用しています</item>
+    </plurals>
+    <plurals name="x_vk_friends_on_instagram">
+        <item quantity="other">%1$s人のVKontakteの友達がInstagramを利用しています</item>
+    </plurals>
+    <plurals name="x_contacts_on_instagram">
+        <item quantity="other">連絡先にInstagramを使っている人が%1$s人います</item>
+    </plurals>
+    <plurals name="follow_subtitle_top_x">
+        <item quantity="other">最初の%1$s人はすでに自動選択されています</item>
+    </plurals>
+    <plurals name="x_and_n_others">
+        <item quantity="other">%1$sさん、&amp;lt;b>他%2$s人&amp;lt;/b></item>
+    </plurals>
+    <plurals name="x_y_and_n_others">
+        <item quantity="other">%1$sさん、%2$sさん、&amp;lt;b>他%3$s人&amp;lt;/b></item>
+    </plurals>
+    <plurals name="number_of_viewers">
+        <item quantity="other">閲覧者%1$d人</item>
+    </plurals>
+    <plurals name="discard_x_drafts">
+        <item quantity="other">下書き%1$d件を破棄しますか？</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%1$s秒前</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%1$s分前</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%1$s時間前</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%1$s日前</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%1$s週間前</item>
+    </plurals>
+    <plurals name="direct_permissions_decline_x_messages">
+        <item quantity="other">このメッセージ%1$d件が削除され、送信者は今後あなたにメッセージを送信できなくなります。</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_decline">
+        <item quantity="other">拒否(%1$d件)</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_allow">
+        <item quantity="other">許可(%1$d件)</item>
+    </plurals>
+    <plurals name="direct_x_people">
+        <item quantity="other">%1$s人</item>
+    </plurals>
+    <plurals name="direct_add_member_dialog_message">
+        <item quantity="other">このスレッドのこれまでのすべてのメッセージが相手に表示されます。</item>
+    </plurals>
+    <plurals name="direct_x_message_requests_caps">
+        <item quantity="other">リクエスト%1$s件</item>
+    </plurals>
+    <plurals name="direct_story_action_log_seen_by">
+        <item quantity="other">%1$d人が既読</item>
+    </plurals>
+    <plurals name="selection_max_reached">
+        <item quantity="other">一度に選択できるコメントは%1$d件までです。</item>
+    </plurals>
+    <plurals name="comment_like_count">
+        <item quantity="other">いいね！%1$d件</item>
+    </plurals>
+    <plurals name="unseen_posts">
+        <item quantity="other">新規投稿%1$d件</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">Facebookの友達%1$s人</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">連絡先%1$s件</item>
+    </plurals>
+    <plurals name="found_x_fb_friends">
+        <item quantity="other">Facebookの友達%1$s人がInstagramを利用しています。</item>
+    </plurals>
+    <plurals name="found_x_vk_friends">
+        <item quantity="other">InstagramにVKontakteの友達が%1$s人います。</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">連絡先が%1$s件見つかりました。</item>
+    </plurals>
+    <plurals name="x_selected">
+        <item quantity="other">%1$d件選択済み</item>
+    </plurals>
+    <plurals name="new_posts">
+        <item quantity="other">新規投稿%1$d件</item>
+    </plurals>
+    <plurals name="undo_x_deleted">
+        <item quantity="other">コメント%1$d件が削除されました。タップして元に戻すことができます。</item>
+    </plurals>
+    <plurals name="x_people">
+        <item quantity="other">%1$d人</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">%1$d人が回答しました。</item>
+    </plurals>
+    <plurals name="live_broadcast_total_views">
+        <item quantity="other">視聴者%1$s人</item>
+    </plurals>
+</resources>

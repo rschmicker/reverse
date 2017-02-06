@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.common.ui.widget.framelayout.MediaFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:forceFullWidth="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.ui.widget.textureview.ScalingTextureView android:id="@id/viewer_texture_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.instagram.feed.widget.IgProgressImageView android:id="@id/viewer_image_view" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.instagram.common.ui.widget.imageview.IgImageView android:id="@id/blur_overlay" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <View android:background="@drawable/reel_viewer_shadow_top" android:layout_width="fill_parent" android:layout_height="70.0dip" />
+    <include layout="@layout/direct_story_group_seen_list_layout" />
+    <TextView android:textSize="@dimen/font_medium" android:textColor="@color/white" android:gravity="center_vertical" android:layout_gravity="bottom" android:id="@id/reply_text" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/button_width" android:layout_marginLeft="10.0dip" android:text="@string/direct_story_item_reply" android:singleLine="true" style="@style/ShadowTextViewStyle" />
+    <include android:id="@id/viewer_info_header" layout="@layout/direct_story_viewer_header" />
+</com.instagram.common.ui.widget.framelayout.MediaFrameLayout>

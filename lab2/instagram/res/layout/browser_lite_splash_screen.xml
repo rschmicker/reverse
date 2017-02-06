@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.browser.lite.widget.BrowserLiteSplashScreen android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:layout_gravity="center" android:id="@id/splash_icon_stub" android:layout="@layout/browser_lite_splash_screen_icon" android:layout_width="75.0dip" android:layout_height="75.0dip" />
+    <ViewStub android:layout_gravity="center" android:id="@id/splash_throbber_stub" android:layout="@layout/browser_lite_splash_screen_throbber" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</com.facebook.browser.lite.widget.BrowserLiteSplashScreen>

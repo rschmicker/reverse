@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/font_medium" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/message_banner" android:background="@color/black_40_transparent" android:paddingTop="8.0dip" android:paddingBottom="8.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <LinearLayout android:gravity="center" android:layout_gravity="top" android:orientation="horizontal" android:id="@id/header_row" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/reel_attribution_margin_left" android:layout_marginRight="@dimen/reel_attribution_margin_left">
+            <com.instagram.common.ui.widget.imageview.CircularImageView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/header_avatar" android:contentDescription="@string/profile_photo_description" style="@style/Avatar.Reel" />
+            <TextView android:textSize="@dimen/font_medium" android:textStyle="bold" android:textColor="@color/white" android:ellipsize="end" android:id="@id/header_username" android:paddingLeft="@dimen/row_text_padding" android:paddingRight="@dimen/reel_username_right_offset" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" style="@style/ShadowTextViewStyle" />
+            <View android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <include layout="@layout/layout_iglive_label_row" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="20.0dip" android:layout_weight="1.0">
+            <TextView android:gravity="center_horizontal" android:id="@id/message_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" style="@style/OverlayTextStyle" />
+            <TextView android:gravity="center_horizontal" android:id="@id/message_body" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/OverlayMessageTextStyle" />
+        </LinearLayout>
+        <ViewStub android:id="@id/iglive_viewer_end_stub" android:layout="@layout/layout_iglive_viewer_end" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <com.instagram.ui.widget.gradientspinner.GradientSpinner android:layout_gravity="center" android:id="@id/loading_spinner" android:padding="1.0dip" android:visibility="gone" android:layout_width="72.0dip" android:layout_height="72.0dip" />
+</FrameLayout>

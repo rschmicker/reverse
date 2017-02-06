@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.ui.widget.drawing.ColourPalette android:layout_width="fill_parent" android:layout_height="fill_parent" app:circle_stroke_width="1.0dip" app:circle_padding="6.0dip" app:bottom_spacing="21.0dip" app:shadowRadius="4.0dip" app:shadowColor="@color/black_40_transparent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/reg_page_info_margin" android:src="@drawable/fb_friends_nux" android:tint="@color/grey_9_whiteout" />
+    <include layout="@layout/reg_header_whiteout" />
+    <FrameLayout android:id="@id/connect_button" android:background="@drawable/reg_blue_button_background" android:layout_width="fill_parent" android:layout_height="@dimen/reg_button_height" android:layout_marginLeft="@dimen/reg_page_side_margin" android:layout_marginTop="@dimen/reg_button_top_margin" android:layout_marginRight="@dimen/reg_page_side_margin">
+        <TextView android:textColor="@color/white" android:layout_gravity="center" android:id="@id/connect_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="@dimen/reg_drawable_padding" style="@style/RegButtonGeneralStyle" />
+    </FrameLayout>
+    <TextView android:textSize="@dimen/font_medium" android:textColor="@color/grey_9_whiteout" android:gravity="center" android:id="@id/social_context" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/reg_page_side_margin" android:layout_marginTop="@dimen/social_context_margin" android:layout_marginRight="@dimen/reg_page_side_margin" />
+    <include layout="@layout/reg_skip_whiteout" />
+</merge>

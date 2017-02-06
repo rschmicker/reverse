@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center|right" android:id="@id/meta_data" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center_vertical" android:id="@id/sending_indicator" android:background="@drawable/sending_indicator" android:layout_width="@dimen/direct_row_message_send_indicator_size" android:layout_height="@dimen/direct_row_message_send_indicator_size" />
+    <TextView android:textSize="@dimen/font_small" android:textColor="@color/grey_light" android:ellipsize="end" android:gravity="center|left" android:id="@id/message_timestamp" android:paddingLeft="@dimen/direct_row_message_common_padding" android:layout_width="@dimen/direct_row_message_timestamp_width" android:layout_height="@dimen/avatar_size_small" android:maxLines="1" android:drawablePadding="5.0dip" />
+</LinearLayout>

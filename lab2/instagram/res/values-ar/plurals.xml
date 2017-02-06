@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="adding_x_like">
+        <item quantity="other">جارٍ إضافة %1$s من تسجيلات الإعجاب.</item>
+        <item quantity="one">جارٍ إضافة تسجيل إعجاب واحد.</item>
+    </plurals>
+    <plurals name="pending_promoted_posts">
+        <item quantity="other">لديك %1$d من الترويجات المعلقة.</item>
+        <item quantity="one">لديك ترويج معلق.</item>
+    </plurals>
+</resources>

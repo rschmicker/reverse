@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom|center|left" android:id="@id/album_preview_item_people_tagging" android:background="@drawable/tag_button_background" android:layout_width="wrap_content" android:layout_height="@dimen/album_preview_action_button_height" android:layout_marginLeft="@dimen/album_preview_action_button_margin" android:layout_marginBottom="@dimen/album_preview_action_button_margin"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/album_preview_tag_icon_size" android:layout_height="@dimen/album_preview_tag_icon_size" android:layout_marginRight="@dimen/album_preview_tag_spacing" android:src="@drawable/album_tagging" />
+    <TextView android:textStyle="bold" android:layout_gravity="center_vertical" android:id="@id/album_preview_tag_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tag_uppercase" />
+</LinearLayout>

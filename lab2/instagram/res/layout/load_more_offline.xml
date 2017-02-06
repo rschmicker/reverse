@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/offline_row_divider" layout="@layout/row_divider" />
+    <TextView android:textStyle="bold" android:gravity="center" android:id="@id/offline_load_button" android:layout_width="fill_parent" android:layout_height="@dimen/offline_load_height" android:text="@string/offline_tap_refresh_feed" android:maxLines="1" />
+</LinearLayout>

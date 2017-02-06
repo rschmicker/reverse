@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/iglive_capture_drawing" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ViewStub android:id="@id/drawing_provider_stub" android:inflatedId="@id/drawing_provider" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_gravity="center|top" android:orientation="horizontal" android:id="@id/brush_palette" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@id/sharpie" android:layout_width="@dimen/button_width" android:layout_height="@dimen/button_width" android:src="@drawable/overlay_marker_states" />
+        <Space android:layout_width="2.0dip" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/marker" android:layout_width="@dimen/button_width" android:layout_height="@dimen/button_width" android:src="@drawable/overlay_chisel_states" />
+        <Space android:layout_width="2.0dip" android:layout_height="fill_parent" />
+        <ImageView android:id="@id/neon" android:layout_width="@dimen/button_width" android:layout_height="@dimen/button_width" android:src="@drawable/overlay_neon_states" />
+    </LinearLayout>
+    <TextView android:gravity="center" android:layout_gravity="center|left|top" android:id="@id/undo_button" android:paddingLeft="12.0dip" android:paddingRight="12.0dip" android:paddingBottom="12.0dip" android:layout_width="wrap_content" android:layout_height="60.0dip" android:text="@string/undo" style="@style/Widget.TextView.Capture.Shadow" />
+    <FrameLayout android:id="@id/colour_palette" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.instagram.ui.widget.pageindicator.CirclePageIndicator android:layout_gravity="bottom|center" android:id="@id/colour_palette_pager_indicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" app:activeColor="@color/white" app:inactiveColor="@color/white_50_transparent" />
+        <com.instagram.common.ui.widget.reboundviewpager.ReboundViewPager android:layout_gravity="bottom" android:id="@id/colour_palette_pager" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="100.0dip" app:pageSpacing="0.0dip" />
+        <com.instagram.ui.widget.drawing.StrokeWidthTool android:layout_gravity="start|bottom|center" android:id="@id/stroke_width_tool" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="400.0dip" android:layout_marginBottom="12.0dip" app:initial_stroke_width="3.0dip" app:minimum_stroke_width="1.0dip" app:maximum_stroke_width="100.0dip" app:thumb_size="15.0dip" app:track_colour="@color/white_50_transparent" app:thumb_colour="@color/white" app:button_stroke_width="2.0dip" app:track_width="1.5dip" app:widened_track_width="10.0dip" app:track_button_spacing="2.0dip" app:shadow_radius="2.0dip" app:collapsed_icon="@drawable/overlay_brush_size" app:expanded_icon="@drawable/brush_size_confirm" app:icon_padding="8.0dip" app:screen_width_fraction="0.1" app:button_collapse_width_reduction="7.0dip" />
+        <com.instagram.ui.widget.drawing.FloatingIndicator android:id="@id/floating_stroke_width_indicator" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:outlineWidth="2.0dip" />
+    </FrameLayout>
+</FrameLayout>

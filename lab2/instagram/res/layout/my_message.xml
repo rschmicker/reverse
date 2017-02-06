@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/timestamp_stub" android:layout="@layout/thread_message_timestamp_separator" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <FrameLayout android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewStub android:layout_gravity="bottom|center|right" android:id="@id/avatar_bar_stub" android:layout="@layout/my_message_avatar_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/direct_row_message_common_padding" />
+        <LinearLayout android:layout_gravity="center|right|top" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/direct_row_message_common_padding">
+            <ViewStub android:id="@id/stub" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ViewStub android:layout_gravity="center_vertical" android:id="@id/upload_failed_icon_stub" android:layout="@layout/upload_failed_icon" android:inflatedId="@id/upload_failed_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <include layout="@layout/thread_list_message_metadata" />
+    </FrameLayout>
+</LinearLayout>

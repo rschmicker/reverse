@@ -1,0 +1,26 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: instagram.apk
+compressionType: false
+doNotCompress:
+- arsc
+- assets/InstagramBundle.android.js.bytecode.sha1
+- assets/InstagramBundle.android.js.meta
+- json
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '16'
+  targetSdkVersion: '23'
+sharedLibrary: false
+unknownFiles:
+  android-support-multidex.version.txt: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.2
+versionInfo:
+  versionCode: '48697439'
+  versionName: 10.6.0

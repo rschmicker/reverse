@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="adding_x_like">
+        <item quantity="other">กำลังเพิ่มการกดถูกใจ %1$s ครั้ง</item>
+    </plurals>
+    <plurals name="pending_promoted_posts">
+        <item quantity="other">คุณมีการโปรโมทรอดำเนินการอยู่ %1$d รายการ</item>
+    </plurals>
+    <plurals name="select_top_x_checkboxes">
+        <item quantity="other">เลือก %1$s รายการแรก</item>
+    </plurals>
+    <plurals name="follow_all_top_x">
+        <item quantity="other">ติดตามบัญชีผู้ใช้ %1$s บัญชีแรก</item>
+    </plurals>
+    <plurals name="x_fb_friends_on_instagram">
+        <item quantity="other">เพื่อน %1$s คนของคุณบน Facebook ใช้งาน Instagram</item>
+    </plurals>
+    <plurals name="x_vk_friends_on_instagram">
+        <item quantity="other">เพื่อน VKontakte %1$s คนใช้ Instagram อยู่</item>
+    </plurals>
+    <plurals name="x_contacts_on_instagram">
+        <item quantity="other">%1$s คนในรายชื่อผู้ติดต่อของคุณใช้งาน Instagram</item>
+    </plurals>
+    <plurals name="follow_subtitle_top_x">
+        <item quantity="other">%1$s คนแรกถูกเลือกไว้แล้วเพื่อให้คุณติดตาม</item>
+    </plurals>
+    <plurals name="x_and_n_others">
+        <item quantity="other">%1$s และ &amp;lt;b>%2$s อื่น ๆ&amp;lt;/b></item>
+    </plurals>
+    <plurals name="x_y_and_n_others">
+        <item quantity="other">%1$s, %2$s และ &amp;lt;b>%3$s อื่น ๆ&amp;lt;/b></item>
+    </plurals>
+    <plurals name="number_of_viewers">
+        <item quantity="other">ผู้รับชม %1$d คน</item>
+    </plurals>
+    <plurals name="discard_x_drafts">
+        <item quantity="other">ทิ้งฉบับร่าง %1$d ฉบับหรือไม่</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">%1$s วินาทีที่แล้ว</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">%1$s นาทีที่แล้ว</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">%1$s ชั่วโมงที่แล้ว</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">%1$s วันที่แล้ว</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">%1$s สัปดาห์ที่แล้ว</item>
+    </plurals>
+    <plurals name="direct_permissions_decline_x_messages">
+        <item quantity="other">ข้อความ %1$d ข้อความนี้จะถูกลบออก และผู้ส่งจะไม่สามารถส่งข้อความถึงคุณได้อีก</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_decline">
+        <item quantity="other">ปฏิเสธ (%1$d)</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_allow">
+        <item quantity="other">อนุญาต (%1$d)</item>
+    </plurals>
+    <plurals name="direct_x_people">
+        <item quantity="other">%1$s คน</item>
+    </plurals>
+    <plurals name="direct_add_member_dialog_message">
+        <item quantity="other">พวกเขาจะเห็นข้อความก่อนหน้านี้ทั้งหมดจากการสนทนานี้</item>
+    </plurals>
+    <plurals name="direct_x_message_requests_caps">
+        <item quantity="other">คำขอ %1$s รายการ</item>
+    </plurals>
+    <plurals name="direct_story_action_log_seen_by">
+        <item quantity="other">มี %1$d คนที่เห็นแล้ว</item>
+    </plurals>
+    <plurals name="selection_max_reached">
+        <item quantity="other">คุณสามารถเลือกความคิดเห็นได้ครั้งละ %1$d รายการเท่านั้น</item>
+    </plurals>
+    <plurals name="comment_like_count">
+        <item quantity="other">ถูกใจ %1$d คน</item>
+    </plurals>
+    <plurals name="unseen_posts">
+        <item quantity="other">%1$d โพสต์ใหม่</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">เพื่อน Facebook %1$s คน</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">%1$s รายชื่อติดต่อ</item>
+    </plurals>
+    <plurals name="found_x_fb_friends">
+        <item quantity="other">คุณมีเพื่อนใน Facebook %1$s คนบน Instagram</item>
+    </plurals>
+    <plurals name="found_x_vk_friends">
+        <item quantity="other">คุณมีเพื่อน %1$s คนจาก VKontakte บน Instagram</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">พบผู้ติดต่อ %1$s คน</item>
+    </plurals>
+    <plurals name="x_selected">
+        <item quantity="other">เลือกแล้ว %1$d รายการ</item>
+    </plurals>
+    <plurals name="new_posts">
+        <item quantity="other">โพสต์ใหม่ %1$d โพสต์</item>
+    </plurals>
+    <plurals name="undo_x_deleted">
+        <item quantity="other">ลบ %1$d ความคิดเห็นแล้ว แตะเพื่อยกเลิก</item>
+    </plurals>
+    <plurals name="x_people">
+        <item quantity="other">%1$d คน</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">%1$d คนตอบแล้ว</item>
+    </plurals>
+    <plurals name="live_broadcast_total_views">
+        <item quantity="other">ผู้รับชม %1$s คน</item>
+    </plurals>
+</resources>

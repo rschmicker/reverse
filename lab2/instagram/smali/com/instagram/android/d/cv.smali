@@ -1,0 +1,72 @@
+.class public final Lcom/instagram/android/d/cv;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field final synthetic a:Lcom/instagram/android/d/cy;
+
+
+# direct methods
+.method public constructor <init>(Lcom/instagram/android/d/cy;)V
+    .locals 0
+
+    .prologue
+    .line 112571
+    iput-object p1, p0, Lcom/instagram/android/d/cv;->a:Lcom/instagram/android/d/cy;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 3
+
+    .prologue
+    .line 112572
+    iget-object v0, p0, Lcom/instagram/android/d/cv;->a:Lcom/instagram/android/d/cy;
+
+    .line 112573
+    iget-object v1, v0, Landroid/support/v4/app/Fragment;->mView:Landroid/view/View;
+
+    move-object v1, v1
+
+    .line 112574
+    if-eqz v1, :cond_0
+
+    .line 112575
+    const v2, 0x7f0a0369
+
+    invoke-virtual {v1, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object v2
+
+    .line 112576
+    if-eqz v2, :cond_0
+
+    iget-object p0, v0, Lcom/instagram/android/d/cy;->t:Ljava/lang/Runnable;
+
+    if-nez p0, :cond_0
+
+    .line 112577
+    new-instance p0, Lcom/instagram/android/d/cx;
+
+    invoke-direct {p0, v0, v1, v2}, Lcom/instagram/android/d/cx;-><init>(Lcom/instagram/android/d/cy;Landroid/view/View;Landroid/view/View;)V
+
+    iput-object p0, v0, Lcom/instagram/android/d/cy;->t:Ljava/lang/Runnable;
+
+    .line 112578
+    iget-object v2, v0, Lcom/instagram/android/d/cy;->t:Ljava/lang/Runnable;
+
+    invoke-virtual {v1, v2}, Landroid/view/View;->post(Ljava/lang/Runnable;)Z
+
+    .line 112579
+    :cond_0
+    return-void
+.end method

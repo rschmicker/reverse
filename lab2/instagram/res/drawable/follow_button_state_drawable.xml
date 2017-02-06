@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:drawable="@drawable/primary_button_selector" app:state_follow="true" />
+    <item android:drawable="@drawable/secondary_button_selector" app:state_following="true" />
+    <item android:drawable="@color/white" app:state_follow="false" app:state_following="false" />
+</selector>

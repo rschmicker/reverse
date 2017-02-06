@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.common.ui.widget.framelayout.MediaFrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.common.ui.widget.imageview.IgImageView android:id="@id/profile_picture" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/upsell_container" android:background="@color/black_40_transparent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/font_medium" android:textColor="@android:color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/photos_of_you_upsell_tap_to_update" />
+        <TextView android:textSize="@dimen/font_medium" android:textColor="@color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="30.0dip" android:text="@string/photos_of_you_upsell_description" />
+    </LinearLayout>
+</com.instagram.common.ui.widget.framelayout.MediaFrameLayout>

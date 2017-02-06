@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.ui.widget.roundedcornerframelayout.RoundedCornerFrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="14.0dip" app:strokeColour="@color/grey_1_5">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="14.0dip" android:layout_marginRight="14.0dip">
+            <ImageView android:layout_gravity="center" android:layout_width="@dimen/reg_icon_dimension" android:layout_height="@dimen/reg_icon_dimension" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip" android:src="@drawable/nux_main_feed_empty_icon" android:scaleType="centerCrop" android:tint="@color/grey_9_whiteout" />
+            <TextView android:textSize="@dimen/font_medium" android:textStyle="bold" android:textColor="@color/grey_9_whiteout" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/nux_main_feed_empty_title_redesign" />
+            <TextView android:textSize="@dimen/font_small" android:textColor="@color/grey_5" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/nux_main_feed_empty_subtitle_redesign" />
+            <Button android:textSize="@dimen/font_medium" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/button_find_friends" android:background="@drawable/button_blue_background" android:padding="@dimen/row_text_button_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="24.0dip" android:layout_marginBottom="24.0dip" />
+        </LinearLayout>
+    </com.instagram.ui.widget.roundedcornerframelayout.RoundedCornerFrameLayout>
+</ScrollView>

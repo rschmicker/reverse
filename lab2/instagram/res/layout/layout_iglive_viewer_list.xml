@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layout_iglive_viewers" android:background="?backgroundColorPrimary" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:layout_marginLeft="@dimen/row_padding" android:layout_marginRight="@dimen/row_padding">
+        <TextView android:textSize="@dimen/font_medium" android:textStyle="bold" android:gravity="start|center" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/live_broadcast_viewers_list_title" android:drawablePadding="4.0dip" android:layout_weight="1.0" />
+        <TextView android:textStyle="bold" android:gravity="center_vertical" android:id="@id/iglive_viewers_list_done" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/done" />
+    </LinearLayout>
+    <View android:layout_marginLeft="@dimen/row_padding" android:layout_marginRight="@dimen/row_padding" style="@style/Widget.Instagram.Divider" />
+    <ListView android:id="@id/iglive_viewers_list" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.instagram.ui.widget.spinner.SpinnerImageView android:layout_gravity="center" android:id="@id/viewers_list_loading_spinner" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/spinner_large" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" layout="@layout/layout_header_with_action_text" />
+    <TextView android:textSize="@dimen/font_small" android:textColor="@color/grey_5_whiteout" android:gravity="center_vertical" android:layout_gravity="start" android:id="@id/recipient_picker_header_subtitle" android:paddingLeft="@dimen/row_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/direct_story_send_separately_header_subtitle" android:maxLines="1" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:paddingLeft="@dimen/content_to_border_margin" android:paddingTop="24.0dip" android:paddingRight="@dimen/content_to_border_margin" android:paddingBottom="@dimen/content_to_border_margin" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_xxlarge" android:textColor="@color/grey_9_whiteout" android:id="@id/title" android:lineSpacingMultiplier="1.2" android:fontFamily="sans-serif-light" style="@style/BusinessText.CenterText" />
+    <TextView android:textSize="@dimen/font_medium" android:textColor="@color/grey_9_whiteout" android:id="@id/subtitle" android:paddingTop="@dimen/title_subtitle_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingMultiplier="1.2" android:fontFamily="sans-serif" style="@style/BusinessText.CenterText" />
+</LinearLayout>

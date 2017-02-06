@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/direct_story_group_seen_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginBottom="6.0dip" android:layout_marginStart="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.common.ui.widget.imageview.IgImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/viewer_seen" />
+    <TextView android:textSize="@dimen/font_medium" android:textColor="@color/white" android:id="@id/direct_story_group_seen_count" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:layout_marginRight="6.0dip" android:layout_marginStart="3.0dip" android:layout_marginEnd="6.0dip" style="@style/ShadowTextViewStyle" />
+    <android.support.v7.widget.RecyclerView android:id="@id/direct_story_group_seen_recycler_view" android:layout_width="fill_parent" android:layout_height="@dimen/direct_story_seen_state_avatar_size" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/grey_0_whiteout" android:layout_width="fill_parent" android:layout_height="45.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_small" android:textColor="@color/grey_5" android:layout_gravity="center" android:id="@id/title_text_view" android:paddingLeft="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/privacy_header_text" />
+    <include layout="@layout/row_divider" />
+</FrameLayout>

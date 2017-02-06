@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.ui.widget.searchedittext.SearchEditText android:id="@id/confirmation_field" android:layout_width="fill_parent" android:layout_height="@dimen/reg_text_field_height" android:hint="@string/confirmation_code" android:cursorVisible="true" android:drawableRight="@drawable/search_clear" android:inputType="number" android:imeOptions="actionNext" style="@style/RegInputFieldStyle" />
+</merge>

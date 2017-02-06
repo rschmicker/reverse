@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/insights_header_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_gravity="top" android:layout_width="fill_parent" android:layout_height="1.0px" layout="@layout/row_divider" />
+    <RelativeLayout android:id="@id/title_container" android:paddingLeft="@dimen/insights_header_padding" android:paddingRight="@dimen/insights_header_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <com.instagram.ui.text.TitleTextView android:textSize="@dimen/font_medium" android:id="@id/insights_title" android:paddingTop="@dimen/insights_header_padding" android:paddingBottom="13.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" app:capitalize="false" style="@style/InsightsHeaderText" />
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/insights_icon" android:paddingLeft="10.0dip" android:paddingTop="18.0dip" android:paddingRight="10.0dip" android:paddingBottom="13.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@id/insights_title" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/tabs_container" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+        <TextView android:textSize="@dimen/font_small_medium" android:textColor="@color/blue_5_whiteout" android:id="@id/insights_see_all" android:paddingTop="@dimen/insights_header_padding" android:paddingBottom="13.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" style="@style/InsightsHeaderText" />
+    </RelativeLayout>
+</FrameLayout>

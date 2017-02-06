@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="adding_x_like">
+        <item quantity="other">%1$s ಇಷ್ಟಗಳನ್ನು ಸೇರಿಸಲಾಗುತ್ತಿದೆ.</item>
+    </plurals>
+    <plurals name="pending_promoted_posts">
+        <item quantity="other">ನೀವು %1$d ಬಾಕಿಯಿರುವ ಪ್ರಚಾರ ಹೊಂದಿರುವಿರಿ.</item>
+    </plurals>
+</resources>

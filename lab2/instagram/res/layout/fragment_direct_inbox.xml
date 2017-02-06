@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/action_bar_height" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <com.instagram.ui.listview.EmptyStateView android:id="@id/direct_empty_inbox_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.instagram.ui.listview.EmptyStateView android:id="@id/direct_empty_threads_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/direct_empty_view_padding_for_stories_tray" />
+        <include layout="@layout/layout_refreshablelistview" />
+        <include android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="@dimen/view_switcher_shadow_height" layout="@layout/inverse_shadow" />
+    </FrameLayout>
+    <include android:id="@id/direct_new_message_footer" android:layout_width="fill_parent" android:layout_height="?tabBarHeight" layout="@layout/direct_new_message_footer" />
+</LinearLayout>

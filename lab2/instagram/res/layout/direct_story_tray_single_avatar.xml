@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/tray_single_avatar_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_gravity="center" android:id="@id/tray_single_gradient_circle" android:background="@drawable/bg_ring_large_tray_avatar" android:visibility="gone" android:layout_width="@dimen/tray_ring_size" android:layout_height="@dimen/tray_ring_size" />
+    <com.instagram.common.ui.widget.imageview.CircularImageView android:layout_gravity="center" android:id="@id/tray_single_avatar" android:layout_width="@dimen/direct_avatar_large" android:layout_height="@dimen/direct_avatar_large" />
+</FrameLayout>

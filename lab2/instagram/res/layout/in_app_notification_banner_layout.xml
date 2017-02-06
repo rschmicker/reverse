@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/grey_0_whiteout" android:paddingLeft="@dimen/feed_header_padding" android:paddingRight="@dimen/feed_header_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/action_bar_height">
+        <com.instagram.common.ui.widget.imageview.CircularImageView android:layout_gravity="center_vertical" android:id="@id/notification_icon" style="@style/Avatar.XSmall" />
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/feed_profile_name_padding" android:paddingRight="@dimen/feed_profile_name_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textStyle="bold" android:textColor="@color/grey_9_whiteout" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/notification_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+            <TextView android:textColor="@color/grey_9_whiteout" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/notification_message" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+        </LinearLayout>
+        <ViewStub android:layout_gravity="center_vertical" android:id="@id/thumbnail_image_stub" android:layout="@layout/in_app_notification_banner_thumbnail_stub" android:inflatedId="@id/thumbnail_image" android:layout_width="@dimen/avatar_size_xsmall" android:layout_height="@dimen/avatar_size_xsmall" />
+    </LinearLayout>
+    <include layout="@layout/view_switcher_shadow" />
+</LinearLayout>

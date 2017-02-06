@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clipChildren="false" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:id="@id/timestamp_stub" android:layout="@layout/thread_message_timestamp_separator" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/username_stub" android:layout="@layout/thread_message_username" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/direct_message_avatar_spacing" android:layout_marginBottom="@dimen/direct_row_message_username_padding_bottom" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ViewStub android:layout_gravity="bottom|center|left" android:id="@id/sender_avatar_stub" android:layout="@layout/message_avatar" android:layout_width="@dimen/direct_avatar_small" android:layout_height="@dimen/direct_avatar_small" android:layout_marginLeft="@dimen/direct_row_message_common_padding" />
+        <ViewStub android:layout_gravity="bottom" android:id="@id/avatar_bar_stub" android:layout="@layout/message_avatar_bar" android:layout_width="fill_parent" android:layout_height="@dimen/direct_reaction_bar_height" android:layout_marginLeft="@dimen/direct_row_message_common_padding" />
+        <ViewStub android:layout_gravity="center|left|top" android:id="@id/stub" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/direct_message_avatar_spacing" />
+        <include layout="@layout/thread_list_message_metadata" />
+    </FrameLayout>
+</LinearLayout>

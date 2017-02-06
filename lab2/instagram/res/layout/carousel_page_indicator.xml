@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.ui.widget.pageindicator.CirclePageIndicator android:layout_gravity="center" android:id="@id/carousel_page_indicator" android:paddingLeft="@dimen/feed_content_padding" android:paddingRight="@dimen/feed_content_padding" android:layout_width="wrap_content" android:layout_height="wrap_content" app:activeColor="@color/blue_5_whiteout" app:inactiveColor="@color/grey_4_whiteout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

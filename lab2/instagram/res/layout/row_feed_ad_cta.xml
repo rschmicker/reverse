@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/row_feed_cta" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/ad_cta_row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ViewStub android:layout_gravity="top" android:id="@id/carousel_segment_indicator_stub" android:layout="@layout/carousel_segment_indicator" android:layout_width="fill_parent" android:layout_height="@dimen/carousel_indicator_height" android:layout_marginLeft="@dimen/carousel_indicator_margin" android:layout_marginTop="@dimen/carousel_indicator_margin" android:layout_marginRight="@dimen/carousel_indicator_margin" />
+    <TextView android:textColor="@color/blue_5_whiteout" android:gravity="center_vertical" android:layout_gravity="bottom" android:id="@id/cta_text" android:layout_width="fill_parent" android:layout_height="@dimen/ad_cta_row_text_height" android:layout_marginLeft="@dimen/feed_content_padding" android:layout_marginRight="@dimen/feed_content_padding" />
+    <ViewStub android:layout_gravity="end" android:id="@id/cta_chevron_stub" android:layout="@layout/row_feed_ad_cta_chevron" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <ViewStub android:layout_gravity="end" android:id="@id/carousel_indicator_stub" android:layout="@layout/carousel_page_indicator" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+    <View android:layout_gravity="bottom" android:id="@id/divider_view" android:background="@color/grey_1_5" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/feed_content_padding" android:layout_marginRight="@dimen/feed_content_padding" />
+</FrameLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/reel_viewer_message_composer" android:background="@color/black_65_transparent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/button_width" android:alpha="0.0" android:translationY="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textSize="@dimen/font_medium" android:textColor="@color/grey_0_whiteout" android:textColorHint="@color/grey_5_whiteout" android:id="@id/reel_viewer_message_composer_text" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:hint="@string/reel_message_composer_text_hint" android:lines="1" android:singleLine="true" android:maxLength="@integer/direct_max_message_length" android:layout_weight="1.0" android:inputType="textAutoCorrect|textCapSentences" android:imeOptions="actionSend" />
+    <ImageView android:id="@id/reel_viewer_message_composer_send_btn" android:background="@null" android:layout_width="@dimen/button_width" android:layout_height="fill_parent" android:src="@drawable/check" android:scaleType="center" />
+</LinearLayout>

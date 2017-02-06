@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:left="@dimen/hide_button_border_stroke" android:top="@dimen/hide_button_border_stroke" android:right="@dimen/hide_button_border_stroke">
+        <shape android:shape="rectangle">
+            <stroke android:width="@dimen/button_border_stroke" android:color="@color/grey_2_whiteout" />
+            <solid android:color="#00000000" />
+        </shape>
+    </item>
+</layer-list>

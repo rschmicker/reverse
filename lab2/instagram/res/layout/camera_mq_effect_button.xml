@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/camera_mq_effect_button" android:layout_width="@dimen/button_width" android:layout_height="@dimen/button_width" android:src="@drawable/camera_magic_wand_l" android:scaleType="center" app:normal="@color/white"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@color/black_65_transparent" android:padding="@dimen/iglive_broadcast_end_margin" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/layout_iglive_end_content" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true">
+        <TextView android:textSize="@dimen/font_medium_large" android:textStyle="bold" android:paddingBottom="@dimen/row_text_padding" android:text="@string/live_broadcast_end_title" android:fontFamily="sans-serif-regular" style="@style/BroadcastEndText" />
+        <TextView android:textSize="@dimen/font_medium_large" android:textColor="@color/white" android:gravity="center_horizontal" android:id="@id/iglive_end_total_viewers" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <ListView android:gravity="center" android:layout_gravity="center" android:id="@id/iglive_broadcast_end_avatars" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/row_padding" android:listSelector="@color/transparent" android:divider="@null" />
+        <com.instagram.ui.widget.spinner.RefreshSpinner android:layout_gravity="center" android:id="@id/viewers_list_loading_spinner" android:visibility="gone" android:layout_width="34.0dip" android:layout_height="34.0dip" />
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/font_medium" android:textStyle="bold" android:textColor="@color/grey_9_whiteout" android:gravity="center" android:id="@id/iglive_end_done_button" android:background="@drawable/button_white_background" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:layout_marginBottom="16.0dip" android:text="@string/done" />
+        <TextView android:textSize="@dimen/font_small" android:id="@id/iglive_broadcast_end_message" android:text="@string/live_broadcast_end_message" android:alpha="0.7" android:fontFamily="sans-serif-regular" style="@style/BroadcastEndText" />
+    </LinearLayout>
+</FrameLayout>

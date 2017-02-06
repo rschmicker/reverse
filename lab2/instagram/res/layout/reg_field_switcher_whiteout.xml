@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/reg_text_side_margin" android:layout_marginRight="@dimen/reg_text_side_margin" android:layout_marginBottom="@dimen/reg_field_margin">
+        <include android:id="@id/left_tab" layout="@layout/reg_tab_whiteout" />
+        <include android:id="@id/right_tab" layout="@layout/reg_tab_whiteout" />
+    </LinearLayout>
+    <ViewStub android:id="@id/email_field_stub" android:paddingTop="@dimen/reg_button_top_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/reg_text_side_margin" android:layout_marginRight="@dimen/reg_text_side_margin" />
+    <ViewStub android:id="@id/phone_field_stub" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/reg_text_side_margin" android:layout_marginRight="@dimen/reg_text_side_margin" />
+    <include android:id="@id/next_button_1" layout="@layout/reg_next_whiteout" />
+    <include android:id="@id/next_button_2" layout="@layout/reg_next_whiteout" />
+</merge>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:paddingBottom="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center|left" android:orientation="horizontal" android:id="@id/share_to_feed_toggle" android:paddingRight="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/row_height_small">
+        <TextView android:textStyle="bold" android:layout_gravity="center_vertical" android:padding="@dimen/row_text_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/share_to_feed" android:layout_weight="1.0" />
+        <com.instagram.ui.widget.switchbutton.IgSwitch android:layout_gravity="center_vertical" android:id="@id/share_to_feed_toggle_switch" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <include layout="@layout/row_divider" />
+    <TextView android:textColor="@color/grey_light" android:gravity="center_vertical" android:background="@drawable/input_background" android:paddingLeft="@dimen/row_text_padding" android:paddingTop="@dimen/row_text_padding" android:paddingRight="@dimen/row_text_padding" android:paddingBottom="@dimen/row_text_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/share_to_feed_description" />
+</LinearLayout>

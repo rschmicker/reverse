@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feed_browser_more_options">Daugiau pasirinkimų</string>
+    <string name="browser_ssl_error_positive_button_text">Grįžti atgal</string>
+    <string name="browser_zoom_in_button_description">Priartinti</string>
+    <string name="catalyst_maps_report_button">Pranešti</string>
+    <string name="catalyst_maps_open_map_reporter">Atvira</string>
+    <string name="catalyst_maps_reporter_dialog_message">Šis žemėlapis prižiūrimas trečios šalies tiekėjų. Jūs būsite nukreiptas pas juos, kad sulauktumėte atsako.</string>
+    <string name="catalyst_maps_get_directions">Gauti nuorodas</string>
+    <string name="catalyst_maps_reporter_dialog_message_f1gender">Šis žemėlapis prižiūrimas trečios šalies tiekėjų. Jūs būsite nukreipta pas juos, kad sulauktumėte atsako.</string>
+</resources>

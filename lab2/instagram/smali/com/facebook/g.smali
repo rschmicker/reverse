@@ -1,0 +1,34 @@
+.class final Lcom/facebook/g;
+.super Ljava/lang/Object;
+.source ""
+
+# interfaces
+.implements Lcom/facebook/d;
+
+
+# instance fields
+.field final synthetic a:Lcom/facebook/h;
+
+
+# direct methods
+.method constructor <init>(Lcom/facebook/h;)V
+    .locals 0
+
+    .prologue
+    .line 54809
+    iput-object p1, p0, Lcom/facebook/g;->a:Lcom/facebook/h;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()V
+    .locals 0
+
+    .prologue
+    .line 54810
+    return-void
+.end method

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/row_height" android:minHeight="@dimen/row_height"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@id/row_user_container" android:background="?backgroundDrawable" android:paddingLeft="@dimen/row_padding" android:layout_width="fill_parent" android:layout_height="@dimen/row_height" android:minHeight="@dimen/row_height">
+        <com.instagram.common.ui.widget.imageview.CircularImageView android:id="@id/row_user_imageview" android:layout_marginRight="@dimen/row_text_padding" style="@style/Avatar.Medium" />
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:textStyle="bold" android:ellipsize="end" android:id="@id/row_user_username" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:drawablePadding="3.0dip" />
+            <TextView android:textColor="@color/grey_light" android:ellipsize="end" android:id="@id/row_user_fullname" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" />
+        </LinearLayout>
+        <com.instagram.common.ui.colorfilter.ColorFilterAlphaImageView android:id="@id/hide_button" android:layout_width="@dimen/button_width" android:layout_height="@dimen/button_width" android:layout_marginLeft="@dimen/row_padding" android:layout_marginRight="4.0dip" android:src="@drawable/small_x" android:scaleType="center" app:normal="@color/grey_3_whiteout" app:active="@color/grey_8_whiteout" />
+        <TextView android:textColor="@drawable/hidden_text_color" android:gravity="center" android:id="@id/unhide_button" android:paddingRight="17.0dip" android:layout_width="wrap_content" android:layout_height="@dimen/button_width" android:layout_marginLeft="@dimen/row_padding" android:layout_marginRight="5.0dip" android:minWidth="@dimen/button_width" android:text="@string/hidden_viewer" android:singleLine="true" />
+    </LinearLayout>
+    <include android:layout_gravity="bottom|center" android:id="@id/bottom_row_divider" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/row_padding" android:layout_marginRight="@dimen/row_padding" style="?attr/defaultDividerStyle" layout="@layout/row_divider" />
+</FrameLayout>

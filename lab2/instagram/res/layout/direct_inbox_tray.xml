@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="?defaultActionBarBackground" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.instagram.ui.widget.spinner.SpinnerImageView android:layout_gravity="center" android:id="@id/loading_spinner" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="112.0dip" android:src="@drawable/spinner_large" />
+    <TextView android:textSize="@dimen/font_medium" android:textColor="@color/grey_light" android:gravity="center" android:id="@id/empty_state_view_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="112.0dip" android:text="@string/direct_story_empty_tray_text" />
+    <android.support.v7.widget.RecyclerView android:id="@id/recycler_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <View android:layout_gravity="bottom" android:id="@id/divider" android:background="@color/grey_1_5" android:layout_width="fill_parent" android:layout_height="1.0px" />
+</FrameLayout>

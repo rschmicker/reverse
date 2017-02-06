@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/modal_bg" android:padding="@dimen/content_to_border_margin" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="26.0sp" android:textColor="@color/grey_9_whiteout" android:gravity="center" android:id="@id/welcome_to_business_instagram_title" android:paddingBottom="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-light" />
+    <TextView android:textSize="@dimen/font_medium" android:textColor="@color/grey_9_whiteout" android:gravity="center" android:paddingBottom="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="280.0dip" android:text="@string/build_business_on_instagram" android:fontFamily="sans-serif" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/continue_button" android:paddingLeft="@dimen/row_padding" android:paddingRight="@dimen/row_padding" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/font_medium" android:textColor="@color/blue_5_whiteout" android:gravity="center" android:id="@id/continue_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/continue_button" android:fontFamily="sans-serif" />
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" android:layout_marginTop="2.0sp" android:src="@drawable/chevron" />
+    </LinearLayout>
+</LinearLayout>

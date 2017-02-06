@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="bottom" android:orientation="horizontal" android:background="?backgroundColorSecondary" android:layout_width="fill_parent" android:layout_height="@dimen/feed_row_header_height"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_medium" android:textColor="@color/grey_light" android:ellipsize="end" android:id="@id/header_title" android:paddingLeft="@dimen/row_padding" android:paddingTop="@dimen/feed_more_button_top_bottom_padding" android:paddingBottom="@dimen/feed_more_button_top_bottom_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:layout_weight="1.0" />
+    <include android:id="@id/header_more_button" layout="@layout/row_feed_more_button" />
+</LinearLayout>

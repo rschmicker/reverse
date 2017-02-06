@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@null" android:layout_width="fill_parent" android:layout_height="@dimen/reg_page_side_margin" android:layout_weight="1.0" />
+    <TextView android:textSize="@dimen/font_small" android:textStyle="bold" android:textColor="@color/blue_5_whiteout" android:gravity="center" android:id="@id/skip_button" android:paddingBottom="@dimen/reg_page_side_margin" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/reg_page_side_margin" android:layout_marginRight="@dimen/reg_page_side_margin" />
+</merge>

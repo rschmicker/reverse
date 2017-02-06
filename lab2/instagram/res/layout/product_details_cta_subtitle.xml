@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/font_small" android:textColor="@color/grey_5_whiteout" android:id="@id/cta_subtitle" android:paddingLeft="@dimen/shopping_viewer_side_margin" android:paddingRight="@dimen/shopping_viewer_side_margin" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lineSpacingExtra="5.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="adding_x_like">
+        <item quantity="other">Legger til %1$s likerklikk.</item>
+        <item quantity="one">Legger til 1 likerklikk.</item>
+    </plurals>
+    <plurals name="pending_promoted_posts">
+        <item quantity="other">Du har %1$d ventende promoteringer.</item>
+        <item quantity="one">Du har 1 ventende promotering.</item>
+    </plurals>
+    <plurals name="select_top_x_checkboxes">
+        <item quantity="other">Velg de øverste %1$s</item>
+        <item quantity="one">Velg første</item>
+    </plurals>
+    <plurals name="follow_all_top_x">
+        <item quantity="other">Følg %1$s kontoer på topp</item>
+        <item quantity="one">Følg den første kontoen</item>
+    </plurals>
+    <plurals name="x_fb_friends_on_instagram">
+        <item quantity="other">%1$s av Facebook-vennene dine er på Instagram</item>
+        <item quantity="one">1 av Facebook-vennene dine er på Instagram</item>
+    </plurals>
+    <plurals name="x_vk_friends_on_instagram">
+        <item quantity="other">%1$s av dine venner på VKontakte er på Instagram</item>
+        <item quantity="one">1 av dine venner på VKontakte er på Instagram</item>
+    </plurals>
+    <plurals name="x_contacts_on_instagram">
+        <item quantity="other">%1$s av kontaktene dine er på Instagram</item>
+        <item quantity="one">1 av kontaktene dine er på Instagram</item>
+    </plurals>
+    <plurals name="follow_subtitle_top_x">
+        <item quantity="other">De første %1$s er allerede valgt så du kan følge dem</item>
+        <item quantity="one">Den første er allerede valgt så du kan følge den</item>
+    </plurals>
+    <plurals name="x_and_n_others">
+        <item quantity="other">%1$s og &amp;lt;b>%2$s andre&amp;lt;/b></item>
+        <item quantity="one">%1$s og &amp;lt;b>1 til&amp;lt;/b></item>
+    </plurals>
+    <plurals name="x_y_and_n_others">
+        <item quantity="other">%1$s, %2$s og &amp;lt;b>%3$s andre&amp;lt;/b></item>
+        <item quantity="one">%1$s, %2$s og &amp;lt;b>1 til&amp;lt;/b></item>
+    </plurals>
+    <plurals name="number_of_viewers">
+        <item quantity="other">%1$d seere</item>
+        <item quantity="one">1 seer</item>
+    </plurals>
+    <plurals name="discard_x_drafts">
+        <item quantity="other">Forkaste %1$d utkast?</item>
+        <item quantity="one">Forkaste 1 utkast?</item>
+    </plurals>
+    <plurals name="x_seconds_ago">
+        <item quantity="other">for %1$s sekunder siden</item>
+        <item quantity="one">for %1$s sekund siden</item>
+    </plurals>
+    <plurals name="x_minutes_ago">
+        <item quantity="other">for %1$s minutter siden</item>
+        <item quantity="one">for %1$s minutt siden</item>
+    </plurals>
+    <plurals name="x_hours_ago">
+        <item quantity="other">for %1$s timer siden</item>
+        <item quantity="one">for %1$s time siden</item>
+    </plurals>
+    <plurals name="x_days_ago">
+        <item quantity="other">for %1$s dager siden</item>
+        <item quantity="one">for %1$s dag siden</item>
+    </plurals>
+    <plurals name="x_weeks_ago">
+        <item quantity="other">for %1$s uker siden</item>
+        <item quantity="one">for %1$s uke siden</item>
+    </plurals>
+    <plurals name="direct_permissions_decline_x_messages">
+        <item quantity="other">Disse %1$d meldingene blir fjernet og avsenderne vil ikke kunne sende deg flere meldinger.</item>
+        <item quantity="one">Denne meldingen blir fjernet, og avsenderne vil ikke kunne sende deg flere meldinger.</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_decline">
+        <item quantity="other">Avvis (%1$d)</item>
+        <item quantity="one">Avvis</item>
+    </plurals>
+    <plurals name="direct_permissions_choice_allow">
+        <item quantity="other">Tillat (%1$d)</item>
+        <item quantity="one">Tillat</item>
+    </plurals>
+    <plurals name="direct_x_people">
+        <item quantity="other">%1$s personer</item>
+        <item quantity="one">1 person</item>
+    </plurals>
+    <plurals name="direct_add_member_dialog_message">
+        <item quantity="other">De vil se alle tidligere meldinger fra denne samtalen.</item>
+        <item quantity="one">%1$s vil se alle tidligere meldinger fra denne samtalen.</item>
+    </plurals>
+    <plurals name="direct_x_message_requests_caps">
+        <item quantity="other">%1$s forespørsler</item>
+        <item quantity="one">%1$s forespørsel</item>
+    </plurals>
+    <plurals name="direct_story_action_log_seen_by">
+        <item quantity="other">Sett av %1$d personer</item>
+        <item quantity="one">Sett av 1 person</item>
+    </plurals>
+    <plurals name="selection_max_reached">
+        <item quantity="other">Du kan bare velge %1$d kommentarer om gangen.</item>
+        <item quantity="one">Du kan bare velge 1 kommentar om gangen.</item>
+    </plurals>
+    <plurals name="comment_like_count">
+        <item quantity="other">%1$d likerklikk</item>
+        <item quantity="one">1 likerklikk</item>
+    </plurals>
+    <plurals name="unseen_posts">
+        <item quantity="other">%1$d nye innlegg</item>
+        <item quantity="one">1 nytt innlegg</item>
+    </plurals>
+    <plurals name="x_facebook_friends">
+        <item quantity="other">%1$s venner på Facebook</item>
+        <item quantity="one">1 Facebook-venn</item>
+    </plurals>
+    <plurals name="x_contacts">
+        <item quantity="other">%1$s kontakter</item>
+        <item quantity="one">1 kontakt</item>
+    </plurals>
+    <plurals name="found_x_fb_friends">
+        <item quantity="other">Du har %1$s Facebook-venner på Instagram.</item>
+        <item quantity="one">Du har 1 Facebook-venn på Instagram.</item>
+    </plurals>
+    <plurals name="found_x_vk_friends">
+        <item quantity="other">Du har %1$s VKontakte-venner på Instagram.</item>
+        <item quantity="one">Du har 1 VKontakte-venn på Instagram.</item>
+    </plurals>
+    <plurals name="found_x_contacts">
+        <item quantity="other">Fant %1$s kontakter.</item>
+        <item quantity="one">1 kontakt funnet.</item>
+    </plurals>
+    <plurals name="x_selected">
+        <item quantity="other">%1$d er valgt</item>
+        <item quantity="one">1 er valgt</item>
+    </plurals>
+    <plurals name="new_posts">
+        <item quantity="other">%1$d nye innlegg</item>
+        <item quantity="one">1 nytt innlegg</item>
+    </plurals>
+    <plurals name="undo_x_deleted">
+        <item quantity="other">%1$d kommentarer slettet. Trykk for å angre.</item>
+        <item quantity="one">Kommentar er slettet. Trykk for å angre.</item>
+    </plurals>
+    <plurals name="x_people">
+        <item quantity="other">%1$d personer</item>
+        <item quantity="one">1 person</item>
+    </plurals>
+    <plurals name="x_survey_question_responders">
+        <item quantity="other">%1$d personer har respondert.</item>
+        <item quantity="one">1 person har svart.</item>
+    </plurals>
+    <plurals name="live_broadcast_total_views">
+        <item quantity="other">%1$s seere</item>
+        <item quantity="one">1 seer</item>
+    </plurals>
+</resources>

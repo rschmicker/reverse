@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.instagram.common.ui.widget.imageview.CircularImageView android:layout_gravity="center_horizontal" android:id="@id/add_photo_view" android:layout_width="@dimen/connection_logo_height" android:layout_height="@dimen/connection_logo_height" android:layout_marginTop="@dimen/reg_header_top_margin" android:layout_marginBottom="@dimen/logo_icon_bottom_margin" android:src="@drawable/reg_photo" app:strokeColor="@color/white" app:strokeWidth="2.0dip" />
+    <include layout="@layout/reg_title" />
+    <include layout="@layout/nux_share_profile_photo_to_feed" />
+    <TextView android:textSize="@dimen/font_medium" android:textStyle="bold" android:textColor="@color/blue_5_whiteout" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/button_text" android:background="@drawable/button_white_background" android:layout_width="fill_parent" android:layout_height="@dimen/row_height_small" android:layout_marginLeft="@dimen/reg_field_horizontal_margin" android:layout_marginTop="@dimen/row_padding" android:layout_marginRight="@dimen/reg_field_horizontal_margin" />
+    <include layout="@layout/reg_skip" />
+</merge>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/megaphone_content" android:background="@color/grey_0_whiteout" android:paddingLeft="@dimen/sa_horizontal_padding" android:paddingTop="@dimen/sa_vertical_padding" android:paddingRight="@dimen/sa_horizontal_padding" android:paddingBottom="@dimen/sa_vertical_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/font_medium" android:textStyle="bold" android:textColor="@color/grey_6" android:layout_gravity="center_horizontal" android:id="@id/sa_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:layout_marginBottom="2.0dip" />
+    <TextView android:textSize="@dimen/font_medium" android:textColor="@color/grey_4" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/sa_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <com.instagram.ui.widget.textview.ImageWithTitleTextView android:textColor="@color/white" android:gravity="center" android:id="@id/sa_button" android:background="@drawable/simple_action_button" android:paddingTop="@dimen/sa_button_padding" android:paddingBottom="@dimen/sa_button_padding" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" />
+</LinearLayout>
